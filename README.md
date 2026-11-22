@@ -21,7 +21,7 @@
 ├── mspm0-target/              # MSPM0G3507 目标车工程与 SDK 依赖
 ├── stm32-aiming-controller/   # STM32F103RC 瞄准控制工程
 ├── k230-vision/               # CanMV K230 视觉脚本
-├── docs/                      # 架构、协议、引脚和已知问题
+├── docs/                      # 架构、协议和已知问题
 ├── LICENSE
 └── THIRD_PARTY_NOTICES.md
 ```
@@ -46,7 +46,7 @@
 - K230 UART2：GPIO11 TX、GPIO12 RX，115200 baud，8N1。
 - STM32 与 K230：TX/RX 交叉并共地。
 - 坐标帧、题号命令和动作定义见 [通信协议](docs/protocol.md)。
-- 完整接线见 固件配置，脚本选择见 [K230 说明](k230-vision/README.md)。
+- 视觉端脚本见 [K230 说明](k230-vision/README.md)。
 
 ## 验证记录
 

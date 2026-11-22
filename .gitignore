@@ -26,3 +26,16 @@ JLink*
 Thumbs.db
 Desktop.ini
 *.log
+*.bak
+/docs/pinout.md
+*.epro
+*.epro2
+*.eprj*
+*.epru
+*.PcbDoc
+*.SchDoc
+*.kicad_pcb
+*.kicad_sch
+*.gbr
+*.drl
+Gerber*/
